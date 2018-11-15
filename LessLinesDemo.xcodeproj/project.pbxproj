@@ -54,14 +54,174 @@
 		F7597B0C219C40450069B265 /* LessLinesDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F7597B0D219C40450069B265 /* AppDelegate.swift */,
-				F7597B0F219C40450069B265 /* ViewController.swift */,
-				F7597B11219C40450069B265 /* Main.storyboard */,
-				F7597B14219C40460069B265 /* Assets.xcassets */,
-				F7597B16219C40460069B265 /* LaunchScreen.storyboard */,
-				F7597B19219C40460069B265 /* Info.plist */,
+				F7C05813219D9C92000B70B9 /* API */,
+				F7597B1F219C40670069B265 /* AppDelegate */,
+				F7C0580F219D9BDE000B70B9 /* Constants */,
+				F7C0580A219D9A87000B70B9 /* Datasource */,
+				F7C05810219D9BE6000B70B9 /* Design */,
+				F7597B22219C411F0069B265 /* Extensions */,
+				F7597B23219C41270069B265 /* Models */,
+				F7C0580B219D9AB4000B70B9 /* Networking */,
+				F7C05812219D9C57000B70B9 /* Protocols */,
+				F7597B21219C41000069B265 /* Resources */,
+				F7C05811219D9C1D000B70B9 /* Services */,
+				F7C05808219D9818000B70B9 /* Supporting Files */,
+				F7C0580E219D9BC8000B70B9 /* Utilities */,
+				F7597B20219C40D10069B265 /* ViewControllers */,
+				F7C0580D219D9B46000B70B9 /* ViewModels */,
+				F7C0580C219D9AF5000B70B9 /* Views */,
 			);
 			path = LessLinesDemo;
+			sourceTree = "<group>";
+		};
+		F7597B1F219C40670069B265 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F7597B0D219C40450069B265 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F7597B20219C40D10069B265 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7C05809219D9A3D000B70B9 /* Base */,
+				F7597B0F219C40450069B265 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F7597B21219C41000069B265 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7597B26219C479F0069B265 /* Plists */,
+				F7597B25219C45890069B265 /* Assets */,
+				F7597B24219C45750069B265 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7597B22219C411F0069B265 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7597B23219C41270069B265 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7597B24219C45750069B265 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7597B11219C40450069B265 /* Main.storyboard */,
+				F7597B16219C40460069B265 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F7597B25219C45890069B265 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F7597B14219C40460069B265 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F7597B26219C479F0069B265 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		F7C05808219D9818000B70B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7597B19219C40460069B265 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7C05809219D9A3D000B70B9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F7C0580A219D9A87000B70B9 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		F7C0580B219D9AB4000B70B9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F7C0580C219D9AF5000B70B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7C0580D219D9B46000B70B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F7C0580E219D9BC8000B70B9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F7C0580F219D9BDE000B70B9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F7C05810219D9BE6000B70B9 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		F7C05811219D9C1D000B70B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F7C05812219D9C57000B70B9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F7C05813219D9C92000B70B9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2CHB59N5N;
-				INFOPLIST_FILE = LessLinesDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LessLinesDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2CHB59N5N;
-				INFOPLIST_FILE = LessLinesDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LessLinesDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
