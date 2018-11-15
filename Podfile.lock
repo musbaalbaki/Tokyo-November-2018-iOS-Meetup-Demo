@@ -1,13 +1,15 @@
 PODS:
   - Alamofire (4.7.3)
   - CryptoSwift (0.13.0)
-  - Kingfisher (4.10.0)
+  - Kingfisher (4.10.1)
+  - SVProgressHUD (2.2.5)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, commit `8742801`)
   - Kingfisher (~> 4.0)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`, commit `d860511`)
   - SwiftyJSON (~> 4.2)
 
 SPEC REPOS:
@@ -20,18 +22,25 @@ EXTERNAL SOURCES:
   CryptoSwift:
     :commit: '8742801'
     :git: https://github.com/krzyzanowskim/CryptoSwift
+  SVProgressHUD:
+    :commit: d860511
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
 
 CHECKOUT OPTIONS:
   CryptoSwift:
     :commit: '8742801'
     :git: https://github.com/krzyzanowskim/CryptoSwift
+  SVProgressHUD:
+    :commit: d860511
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
-  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: bcda750b8f80f4fd58852a4042ea09201aeffad1
+PODFILE CHECKSUM: 15d1c748bcf6e0c05644554281a1c3f607755bbe
 
 COCOAPODS: 1.5.3

@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftyJSON
+import SVProgressHUD
 
 protocol LoadingViewController {
     associatedtype EndPointResultType
@@ -16,17 +17,19 @@ protocol LoadingViewController {
 }
 
 extension LoadingViewController where Self: UIViewController {
-    func load(_ endpoint: Endpoint<EndPointResultType>, showActivityIndicator: Bool = true) {
-        if showActivityIndicator == true {
+    func load(_ endpoint: Endpoint<EndPointResultType>, showActicityIndicator: Bool = true) {
+        if showActicityIndicator == true {
+            SVProgressHUD.show()
             UIApplication.shared.isNetworkActivityIndicatorVisible = true
         }
         
         API.request(endpoint) { result, isFromCache  in
-            
-            if isFromCache == false && showActivityIndicator == true {
+            if showActicityIndicator == true {
+                SVProgressHUD.dismiss()
+            }
+            if isFromCache == false && showActicityIndicator == true {
                 UIApplication.shared.isNetworkActivityIndicatorVisible = false
             }
-            
             guard let value = result.value else { return }
             
             self.configure(value: value)

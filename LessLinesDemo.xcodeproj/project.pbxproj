@@ -14,6 +14,12 @@
 		F7597B15219C40460069B265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7597B14219C40460069B265 /* Assets.xcassets */; };
 		F7597B18219C40460069B265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7597B16219C40460069B265 /* LaunchScreen.storyboard */; };
 		F7883EA9219DACBA006C0708 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7883EA8219DACBA006C0708 /* Strings.swift */; };
+		F7883EAB219DB451006C0708 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7883EAA219DB451006C0708 /* Photo.swift */; };
+		F7883EAF219DB593006C0708 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7883EAD219DB593006C0708 /* ItemTableViewCell.swift */; };
+		F7883EB0219DB593006C0708 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7883EAE219DB593006C0708 /* ItemTableViewCell.xib */; };
+		F7883EB6219DB6CE006C0708 /* Photo+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7883EB5219DB6CE006C0708 /* Photo+ViewModel.swift */; };
+		F7883EB8219DBE85006C0708 /* UIAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7883EB7219DBE85006C0708 /* UIAppearance.swift */; };
+		F7883EBA219DBEE5006C0708 /* AppDelegate+SetupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7883EB9219DBEE5006C0708 /* AppDelegate+SetupApp.swift */; };
 		F7C05816219D9E1A000B70B9 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C05815219D9E1A000B70B9 /* Navigator.swift */; };
 		F7C05818219D9FB6000B70B9 /* DatasourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C05817219D9FB6000B70B9 /* DatasourceFactory.swift */; };
 		F7C0581A219DA015000B70B9 /* TableViewCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C05819219DA015000B70B9 /* TableViewCellType.swift */; };
@@ -55,6 +61,12 @@
 		F7597B17219C40460069B265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7597B19219C40460069B265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7883EA8219DACBA006C0708 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		F7883EAA219DB451006C0708 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F7883EAD219DB593006C0708 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		F7883EAE219DB593006C0708 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		F7883EB5219DB6CE006C0708 /* Photo+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+ViewModel.swift"; sourceTree = "<group>"; };
+		F7883EB7219DBE85006C0708 /* UIAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAppearance.swift; sourceTree = "<group>"; };
+		F7883EB9219DBEE5006C0708 /* AppDelegate+SetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+SetupApp.swift"; sourceTree = "<group>"; };
 		F7C05815219D9E1A000B70B9 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		F7C05817219D9FB6000B70B9 /* DatasourceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasourceFactory.swift; sourceTree = "<group>"; };
 		F7C05819219DA015000B70B9 /* TableViewCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellType.swift; sourceTree = "<group>"; };
@@ -150,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				F7597B0D219C40450069B265 /* AppDelegate.swift */,
+				F7883EB9219DBEE5006C0708 /* AppDelegate+SetupApp.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -166,6 +179,7 @@
 		F7597B21219C41000069B265 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F7883EAC219DB567006C0708 /* Xibs */,
 				F7597B26219C479F0069B265 /* Plists */,
 				F7597B25219C45890069B265 /* Assets */,
 				F7597B24219C45750069B265 /* Storyboards */,
@@ -193,6 +207,7 @@
 		F7597B23219C41270069B265 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F7883EAA219DB451006C0708 /* Photo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +235,14 @@
 				F7C05839219DA659000B70B9 /* URLs.plist */,
 			);
 			path = Plists;
+			sourceTree = "<group>";
+		};
+		F7883EAC219DB567006C0708 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F7883EAE219DB593006C0708 /* ItemTableViewCell.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		F7C05808219D9818000B70B9 /* Supporting Files */ = {
@@ -261,6 +284,7 @@
 		F7C0580C219D9AF5000B70B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7883EAD219DB593006C0708 /* ItemTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +292,7 @@
 		F7C0580D219D9B46000B70B9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F7883EB5219DB6CE006C0708 /* Photo+ViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -296,6 +321,7 @@
 		F7C05810219D9BE6000B70B9 /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				F7883EB7219DBE85006C0708 /* UIAppearance.swift */,
 			);
 			path = Design;
 			sourceTree = "<group>";
@@ -403,6 +429,7 @@
 				F7597B18219C40460069B265 /* LaunchScreen.storyboard in Resources */,
 				F7597B15219C40460069B265 /* Assets.xcassets in Resources */,
 				F7C0583A219DA659000B70B9 /* URLs.plist in Resources */,
+				F7883EB0219DB593006C0708 /* ItemTableViewCell.xib in Resources */,
 				F7597B13219C40450069B265 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +447,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -427,6 +455,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,12 +499,14 @@
 				F7C0583E219DA725000B70B9 /* UIView+Helpers.swift in Sources */,
 				F7C05818219D9FB6000B70B9 /* DatasourceFactory.swift in Sources */,
 				F7C05846219DA826000B70B9 /* UIImageView+Helpers.swift in Sources */,
+				F7883EB8219DBE85006C0708 /* UIAppearance.swift in Sources */,
 				F7C05836219DA4E9000B70B9 /* GenericHorizontalCollectionViewController.swift in Sources */,
 				F7C05848219DA83E000B70B9 /* UILabel+Helpers.swift in Sources */,
 				F7C0584A219DA88C000B70B9 /* UITextField+Helpers.swift in Sources */,
 				F7597B0E219C40450069B265 /* AppDelegate.swift in Sources */,
 				F7C0582A219DA3CB000B70B9 /* TargetAction.swift in Sources */,
 				F7C05822219DA1FC000B70B9 /* LoadingViewController.swift in Sources */,
+				F7883EB6219DB6CE006C0708 /* Photo+ViewModel.swift in Sources */,
 				F7C05840219DA741000B70B9 /* String+Helpers.swift in Sources */,
 				F7C05830219DA493000B70B9 /* CustomNotifications.swift in Sources */,
 				F7C05824219DA252000B70B9 /* URLFactory.swift in Sources */,
@@ -483,10 +514,13 @@
 				F7C0582E219DA45D000B70B9 /* DeviceOrientation.swift in Sources */,
 				F7883EA9219DACBA006C0708 /* Strings.swift in Sources */,
 				F7C05832219DA4D2000B70B9 /* GenericTableViewController.swift in Sources */,
+				F7883EAB219DB451006C0708 /* Photo.swift in Sources */,
 				F7C05816219D9E1A000B70B9 /* Navigator.swift in Sources */,
 				F7C05820219DA146000B70B9 /* Endpoints.swift in Sources */,
 				F7C0581E219DA0E2000B70B9 /* UIViewController+Helpers.swift in Sources */,
 				F7C05834219DA4DF000B70B9 /* GenericCollectionViewController.swift in Sources */,
+				F7883EAF219DB593006C0708 /* ItemTableViewCell.swift in Sources */,
+				F7883EBA219DBEE5006C0708 /* AppDelegate+SetupApp.swift in Sources */,
 				F7C0582C219DA3FE000B70B9 /* MainContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

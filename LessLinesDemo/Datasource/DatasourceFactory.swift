@@ -9,5 +9,11 @@
 import UIKit
 
 struct DatasourceFactory {
-    
+    static func datasourceForPhotosList(_ photos: [Photo]) -> [TableViewCellType] {
+        var items: [TableViewCellType] = []
+        for photo in photos {
+            items.append(.photoItem(photo))
+        }
+        return items
+    }
 }

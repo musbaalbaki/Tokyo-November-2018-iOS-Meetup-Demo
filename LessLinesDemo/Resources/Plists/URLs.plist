@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>BaseAPIURL</key>
-	<string></string>
+	<string>https://jsonplaceholder.typicode.com/</string>
 </dict>
 </plist>

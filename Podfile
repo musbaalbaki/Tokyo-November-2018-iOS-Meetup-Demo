@@ -11,5 +11,6 @@ target 'LessLinesDemo' do
     pod 'SwiftyJSON', '~> 4.2'
     pod 'Kingfisher','~> 4.0'
     pod 'CryptoSwift', :git => 'https://github.com/krzyzanowskim/CryptoSwift', :commit => '8742801'
+    pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git', :commit => 'd860511'
 
 end

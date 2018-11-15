@@ -15,5 +15,10 @@ final class Navigator {
     init(_ window: UIWindow) {
         mainNavigationController = window.rootViewController as? UINavigationController
         mainViewController = mainNavigationController.viewControllers.first as? MainViewController
+        mainViewController.showDetail = showDetail
+    }
+    
+    func showDetail(photo: Photo) {
+        // TODO: - Implement me
     }
 }

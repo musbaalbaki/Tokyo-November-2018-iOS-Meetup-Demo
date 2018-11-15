@@ -9,9 +9,14 @@
 import UIKit
 
 enum TableViewCellType {
-    
+    case photoItem(Photo)
 }
 
 extension TableViewCellType {
-    
+    var tableViewCellDescriptor: TableViewCellDescriptor {
+        switch self {
+        case .photoItem(let photo):
+            return TableViewCellDescriptor(reuseIdentifier: ItemTableViewCell.className, configure: photo.configure)
+        }
+    }
 }
