@@ -3,6 +3,11 @@ How to build iOS apps using less lines of code?
 
 In this demo we will build an app that calls an API and populate a list of Photo items in a generic UITableViewController that is construcuted using an array of enums.
 
+### Prerequisites
+```
+Xcode 10.1 and Swift 4.2
+```
+
 ### API call, JSON response and model generation
 
 Let's request this GET API and check the JSON response first:
