@@ -148,7 +148,6 @@
 				F7C0580B219D9AB4000B70B9 /* Networking */,
 				F7C05812219D9C57000B70B9 /* Protocols */,
 				F7597B21219C41000069B265 /* Resources */,
-				F7C05811219D9C1D000B70B9 /* Services */,
 				F7C05808219D9818000B70B9 /* Supporting Files */,
 				F7C0580E219D9BC8000B70B9 /* Utilities */,
 				F7597B20219C40D10069B265 /* ViewControllers */,
@@ -324,13 +323,6 @@
 				F7883EB7219DBE85006C0708 /* UIAppearance.swift */,
 			);
 			path = Design;
-			sourceTree = "<group>";
-		};
-		F7C05811219D9C1D000B70B9 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		F7C05812219D9C57000B70B9 /* Protocols */ = {
