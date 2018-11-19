@@ -75,6 +75,7 @@ Now at this point we have an array of photos, that is our own custom model. We w
 
 * This is very simple, all we need to do is create our own ```ItemTableViewCell.xib``` and design it the way we want. Note that our generic table view controller uses automatic dimensions for the height so if you set the auto layout properly here, the cell will dynamically size itself. 
 * Connect all the necessarily outlets that should be dynamic
+* Do not forget to add the reuse identifier in IB to match the class name ```ItemTableViewCell```
 
 ### UI - Data binding 
 
