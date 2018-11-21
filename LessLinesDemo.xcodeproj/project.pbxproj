@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AA0A408B54618EFEADFF2899 /* Pods_LessLinesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9956A293D61F965477D3D02 /* Pods_LessLinesDemo.framework */; };
+		F7268F0521A58298000CC55E /* CollectionViewCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F0421A58298000CC55E /* CollectionViewCellType.swift */; };
+		F7268F0821A582BB000CC55E /* RotationSupportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F0721A582BB000CC55E /* RotationSupportManager.swift */; };
+		F7268F0A21A582D8000CC55E /* PhotoCollage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F0921A582D8000CC55E /* PhotoCollage.swift */; };
+		F7268F1021A583C5000CC55E /* PhotoItemsCollageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7268F0F21A583C5000CC55E /* PhotoItemsCollageTableViewCell.xib */; };
+		F7268F1221A583D2000CC55E /* PhotoItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7268F1121A583D2000CC55E /* PhotoItemCollectionViewCell.xib */; };
+		F7268F1421A583E9000CC55E /* SpacingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7268F1321A583E9000CC55E /* SpacingTableViewCell.xib */; };
+		F7268F1821A58422000CC55E /* CollageTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F1721A58422000CC55E /* CollageTableViewCells.swift */; };
+		F7268F1B21A58432000CC55E /* GenericCollageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F1A21A58432000CC55E /* GenericCollageTableViewCell.swift */; };
+		F7268F1D21A5843B000CC55E /* PhotoItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F1C21A5843B000CC55E /* PhotoItemCollectionViewCell.swift */; };
+		F7268F1F21A58441000CC55E /* SpacingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F1E21A58441000CC55E /* SpacingTableViewCell.swift */; };
+		F7268F2121A58483000CC55E /* PhotoCollage+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7268F2021A58482000CC55E /* PhotoCollage+ViewModel.swift */; };
 		F7597B0E219C40450069B265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7597B0D219C40450069B265 /* AppDelegate.swift */; };
 		F7597B10219C40450069B265 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7597B0F219C40450069B265 /* MainViewController.swift */; };
 		F7597B13219C40450069B265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7597B11219C40450069B265 /* Main.storyboard */; };
@@ -53,6 +64,17 @@
 		A37E8536C9FAFDB9D4A810FC /* Pods-LessLinesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LessLinesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LessLinesDemo/Pods-LessLinesDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D1B3ACB7ADFD039C8EA231B7 /* Pods-LessLinesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LessLinesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LessLinesDemo/Pods-LessLinesDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D9956A293D61F965477D3D02 /* Pods_LessLinesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LessLinesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7268F0421A58298000CC55E /* CollectionViewCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellType.swift; sourceTree = "<group>"; };
+		F7268F0721A582BB000CC55E /* RotationSupportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationSupportManager.swift; sourceTree = "<group>"; };
+		F7268F0921A582D8000CC55E /* PhotoCollage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollage.swift; sourceTree = "<group>"; };
+		F7268F0F21A583C5000CC55E /* PhotoItemsCollageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoItemsCollageTableViewCell.xib; sourceTree = "<group>"; };
+		F7268F1121A583D2000CC55E /* PhotoItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		F7268F1321A583E9000CC55E /* SpacingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpacingTableViewCell.xib; sourceTree = "<group>"; };
+		F7268F1721A58422000CC55E /* CollageTableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollageTableViewCells.swift; sourceTree = "<group>"; };
+		F7268F1A21A58432000CC55E /* GenericCollageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCollageTableViewCell.swift; sourceTree = "<group>"; };
+		F7268F1C21A5843B000CC55E /* PhotoItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7268F1E21A58441000CC55E /* SpacingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacingTableViewCell.swift; sourceTree = "<group>"; };
+		F7268F2021A58482000CC55E /* PhotoCollage+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoCollage+ViewModel.swift"; sourceTree = "<group>"; };
 		F7597B0A219C40450069B265 /* LessLinesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessLinesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7597B0D219C40450069B265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7597B0F219C40450069B265 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +138,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F7268F0621A582A6000CC55E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F7268F0721A582BB000CC55E /* RotationSupportManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F7268F0B21A582E6000CC55E /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7268F1121A583D2000CC55E /* PhotoItemCollectionViewCell.xib */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F7268F0C21A582EE000CC55E /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7883EAE219DB593006C0708 /* ItemTableViewCell.xib */,
+				F7268F1321A583E9000CC55E /* SpacingTableViewCell.xib */,
+				F7268F0E21A582FC000CC55E /* Base */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		F7268F0E21A582FC000CC55E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F7268F0F21A583C5000CC55E /* PhotoItemsCollageTableViewCell.xib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F7268F1521A58403000CC55E /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F7268F1E21A58441000CC55E /* SpacingTableViewCell.swift */,
+				F7268F1921A58424000CC55E /* Base */,
+				F7883EAD219DB593006C0708 /* ItemTableViewCell.swift */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		F7268F1621A5840C000CC55E /* UICollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F7268F1C21A5843B000CC55E /* PhotoItemCollectionViewCell.swift */,
+			);
+			path = UICollectionViewCells;
+			sourceTree = "<group>";
+		};
+		F7268F1921A58424000CC55E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F7268F1A21A58432000CC55E /* GenericCollageTableViewCell.swift */,
+				F7268F1721A58422000CC55E /* CollageTableViewCells.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		F7597B01219C40450069B265 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +225,7 @@
 				F7C0580A219D9A87000B70B9 /* Datasource */,
 				F7C05810219D9BE6000B70B9 /* Design */,
 				F7C05813219D9C92000B70B9 /* Endpoints */,
+				F7268F0621A582A6000CC55E /* Managers */,
 				F7597B22219C411F0069B265 /* Extensions */,
 				F7597B23219C41270069B265 /* Models */,
 				F7C05814219D9DA1000B70B9 /* Navigation */,
@@ -207,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				F7883EAA219DB451006C0708 /* Photo.swift */,
+				F7268F0921A582D8000CC55E /* PhotoCollage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -239,7 +324,8 @@
 		F7883EAC219DB567006C0708 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				F7883EAE219DB593006C0708 /* ItemTableViewCell.xib */,
+				F7268F0B21A582E6000CC55E /* UICollectionViewCell */,
+				F7268F0C21A582EE000CC55E /* UITableViewCell */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -268,6 +354,7 @@
 			children = (
 				F7C05817219D9FB6000B70B9 /* DatasourceFactory.swift */,
 				F7C05819219DA015000B70B9 /* TableViewCellType.swift */,
+				F7268F0421A58298000CC55E /* CollectionViewCellType.swift */,
 			);
 			path = Datasource;
 			sourceTree = "<group>";
@@ -283,7 +370,8 @@
 		F7C0580C219D9AF5000B70B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F7883EAD219DB593006C0708 /* ItemTableViewCell.swift */,
+				F7268F1621A5840C000CC55E /* UICollectionViewCells */,
+				F7268F1521A58403000CC55E /* UITableViewCells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,6 +380,7 @@
 			isa = PBXGroup;
 			children = (
 				F7883EB5219DB6CE006C0708 /* Photo+ViewModel.swift */,
+				F7268F2021A58482000CC55E /* PhotoCollage+ViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -419,8 +508,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7597B18219C40460069B265 /* LaunchScreen.storyboard in Resources */,
+				F7268F1421A583E9000CC55E /* SpacingTableViewCell.xib in Resources */,
 				F7597B15219C40460069B265 /* Assets.xcassets in Resources */,
 				F7C0583A219DA659000B70B9 /* URLs.plist in Resources */,
+				F7268F1221A583D2000CC55E /* PhotoItemCollectionViewCell.xib in Resources */,
+				F7268F1021A583C5000CC55E /* PhotoItemsCollageTableViewCell.xib in Resources */,
 				F7883EB0219DB593006C0708 /* ItemTableViewCell.xib in Resources */,
 				F7597B13219C40450069B265 /* Main.storyboard in Resources */,
 			);
@@ -485,15 +577,19 @@
 				F7C0581A219DA015000B70B9 /* TableViewCellType.swift in Sources */,
 				F7C0583C219DA70E000B70B9 /* NSObject+Helpers.swift in Sources */,
 				F7C05826219DA2C6000B70B9 /* WebservicesCore.swift in Sources */,
+				F7268F0A21A582D8000CC55E /* PhotoCollage.swift in Sources */,
 				F7C05844219DA7DF000B70B9 /* UIDevice+Helpers.swift in Sources */,
 				F7C0581C219DA048000B70B9 /* UIStoryboard+Modules.swift in Sources */,
+				F7268F0821A582BB000CC55E /* RotationSupportManager.swift in Sources */,
 				F7C05842219DA7A4000B70B9 /* UIApplication+Helpers.swift in Sources */,
 				F7C0583E219DA725000B70B9 /* UIView+Helpers.swift in Sources */,
 				F7C05818219D9FB6000B70B9 /* DatasourceFactory.swift in Sources */,
+				F7268F1D21A5843B000CC55E /* PhotoItemCollectionViewCell.swift in Sources */,
 				F7C05846219DA826000B70B9 /* UIImageView+Helpers.swift in Sources */,
 				F7883EB8219DBE85006C0708 /* UIAppearance.swift in Sources */,
 				F7C05836219DA4E9000B70B9 /* GenericHorizontalCollectionViewController.swift in Sources */,
 				F7C05848219DA83E000B70B9 /* UILabel+Helpers.swift in Sources */,
+				F7268F1B21A58432000CC55E /* GenericCollageTableViewCell.swift in Sources */,
 				F7C0584A219DA88C000B70B9 /* UITextField+Helpers.swift in Sources */,
 				F7597B0E219C40450069B265 /* AppDelegate.swift in Sources */,
 				F7C0582A219DA3CB000B70B9 /* TargetAction.swift in Sources */,
@@ -511,9 +607,13 @@
 				F7C05820219DA146000B70B9 /* Endpoints.swift in Sources */,
 				F7C0581E219DA0E2000B70B9 /* UIViewController+Helpers.swift in Sources */,
 				F7C05834219DA4DF000B70B9 /* GenericCollectionViewController.swift in Sources */,
+				F7268F2121A58483000CC55E /* PhotoCollage+ViewModel.swift in Sources */,
+				F7268F1821A58422000CC55E /* CollageTableViewCells.swift in Sources */,
 				F7883EAF219DB593006C0708 /* ItemTableViewCell.swift in Sources */,
 				F7883EBA219DBEE5006C0708 /* AppDelegate+SetupApp.swift in Sources */,
 				F7C0582C219DA3FE000B70B9 /* MainContainerViewController.swift in Sources */,
+				F7268F1F21A58441000CC55E /* SpacingTableViewCell.swift in Sources */,
+				F7268F0521A58298000CC55E /* CollectionViewCellType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

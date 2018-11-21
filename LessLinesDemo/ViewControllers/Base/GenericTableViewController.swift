@@ -57,6 +57,45 @@ final class GenericTableViewController<Item>: UITableViewController {
         self.tableView.reloadData()
     }
     
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        self.visibleIndexPaths = self.tableView.indexPathsForVisibleRows
+        coordinator.animate(alongsideTransition: { (UIViewControllerTransitionCoordinatorContext) in
+            self.tableView.reloadData()
+            self.handleScrollPositionMemory(animated: false)
+        }) { (UIViewControllerTransitionCoordinatorContext) in
+        }
+    }
+    
+    func handleScrollPositionMemory(animated: Bool) {
+        guard let visibleIndexPaths     = self.visibleIndexPaths    else  { return }
+        guard let lastVisibleIndexPath  = visibleIndexPaths.last    else  { return }
+        guard let firstVisibleIndexPath = visibleIndexPaths.first   else  { return }
+        guard self.items.count > 0                                  else  { return }
+        if lastVisibleIndexPath.row == self.items.count - 1 {
+            let indexPath = IndexPath(row: self.items.count - 1, section: 0)
+            self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: animated)
+        } else {
+            if firstVisibleIndexPath.row == 0 {
+                let indexPath = IndexPath(row: 0, section: 0)
+                self.tableView.scrollToRow(at: indexPath, at: .top, animated: animated)
+            } else {
+                let visibleRowsCount: Double = Double(visibleIndexPaths.count)
+                if visibleRowsCount == 1.0 {
+                    let indexPath = IndexPath(row: visibleIndexPaths[0].row, section: 0)
+                    self.tableView.scrollToRow(at: indexPath, at: .middle, animated: animated)
+                } else {
+                    let targetIndexToShow: Double = (visibleRowsCount / 2.0).rounded(.down)
+                    let intTargetIndexToShow: Int = Int(targetIndexToShow)
+                    if intTargetIndexToShow >= 0 {
+                        let actualTargetRowToShow = visibleIndexPaths[intTargetIndexToShow].row
+                        let indexPath = IndexPath(row: actualTargetRowToShow, section: 0)
+                        self.tableView.scrollToRow(at: indexPath, at: .middle, animated: animated)
+                    }
+                }
+            }
+        }
+    }
+    
     // MARK: - UITableViewDataSource
     
     override func numberOfSections(in tableView: UITableView) -> Int {

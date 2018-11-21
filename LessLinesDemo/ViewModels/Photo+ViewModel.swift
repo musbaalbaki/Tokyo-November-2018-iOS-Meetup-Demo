@@ -13,4 +13,10 @@ extension Photo {
         cell.itemTitleLabel.text = self.title
         cell.photoImageView.fetchImage(self.thumbnailUrl)
     }
+    
+    func configure(_ cell: PhotoItemCollectionViewCell) {
+        cell.photoTitleLabel.text = self.title
+        cell.photoImageView.fetchImage(self.thumbnailUrl)
+    }
 }
+

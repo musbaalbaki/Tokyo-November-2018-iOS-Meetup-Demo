@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PhotoItemsCollageTableViewCell" rowHeight="97" id="hEK-9e-NsM" customClass="PhotoItemsCollageTableViewCell" customModule="LessLinesDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hEK-9e-NsM" id="vht-nf-nPG">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQ2-8M-wRH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" priority="999" constant="96.5" id="GSS-aM-Ez4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eQ2-8M-wRH" firstAttribute="top" secondItem="vht-nf-nPG" secondAttribute="top" id="89Z-qP-qUm"/>
+                    <constraint firstAttribute="bottom" secondItem="eQ2-8M-wRH" secondAttribute="bottom" id="O3v-kD-yse"/>
+                    <constraint firstAttribute="trailing" secondItem="eQ2-8M-wRH" secondAttribute="trailing" id="e41-Nd-bAA"/>
+                    <constraint firstItem="eQ2-8M-wRH" firstAttribute="leading" secondItem="vht-nf-nPG" secondAttribute="leading" id="yZc-Gn-cUu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionViewContainerView" destination="eQ2-8M-wRH" id="HAx-o6-bje"/>
+                <outlet property="collectionViewHeightConstraint" destination="GSS-aM-Ez4" id="E7J-WT-fZl"/>
+            </connections>
+            <point key="canvasLocation" x="-1796" y="34"/>
+        </tableViewCell>
+    </objects>
+</document>

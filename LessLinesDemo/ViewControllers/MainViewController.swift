@@ -39,6 +39,7 @@ class MainViewController: UIViewController {
             switch tableViewCellType {
             case .photoItem(let photo):
                 self.showDetail(photo)
+            default: break
             }
         }
     }
