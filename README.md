@@ -35,7 +35,7 @@ This will return a JSON of this format:
   }]
   ```
   
-  We will use [SwiftyJSONAccelerator](https://github.com/insanoid/SwiftyJSONAccelerator) to auto generate our model object so that we don't have to write any model or service response object manually. If you are on macOS Mojave then please make sure do download [this](https://github.com/insanoid/SwiftyJSONAccelerator/releases/download/v1.3.0/SwiftyJSONAccelerator.zip) release.
+  We will use [SwiftyJSONAccelerator](https://github.com/insanoid/SwiftyJSONAccelerator) to auto generate our model object so that we don't have to write any model or service response object manually. If you are on macOS Mojave then please make sure to download [this](https://github.com/insanoid/SwiftyJSONAccelerator/releases/download/v1.3.0/SwiftyJSONAccelerator.zip) release.
   
   This will generate ```Photo.swift``` for us. 
   
