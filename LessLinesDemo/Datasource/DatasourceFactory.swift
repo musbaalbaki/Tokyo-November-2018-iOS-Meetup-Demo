@@ -14,7 +14,7 @@ struct DatasourceFactory {
         let collagePhotos: [Photo] = Array(photos.prefix(20))
         let totalPhotos: [Photo] = Array(photos.prefix(45))
         items.append(.spacing)
-        items.append(.photoCollage(PhotoCollage(photos: collagePhotos)))
+        items.append(.photoCollage(collagePhotos))
         items.append(.spacing)
         
         for photo in totalPhotos {
