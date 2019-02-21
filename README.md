@@ -1,4 +1,4 @@
-# Tokyo November 2018- OS-Meetup Demo
+# Tokyo November 2018 iOS Meetup Demo
 How to build iOS apps using less lines of code?
 
 In this demo we will build an app that calls an API and populate a list of Photo items in a generic UITableViewController that is constructed using an array of enums.
